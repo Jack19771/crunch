@@ -15,9 +15,9 @@ socketio = SocketIO(app,logger=True, engineio_logger=True)
 
 # Add your cloudinary credentials here!
 Cloud.config( 
-  cloud_name = "", 
-  api_key = "", 
-  api_secret = "" 
+  cloud_name = "dfuw1so79", 
+  api_key = "391654976991767", 
+  api_secret = "***************************" 
 )
 
 @socketio.on('sendimage')
@@ -218,4 +218,4 @@ def not_found(e):
 
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True, port=5000)
+    socketio.run(app, debug=True, port=8000)
